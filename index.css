@@ -1,3 +1,4 @@
+.group-icon,
 .lines-icon1 {
   width: 185.5px;
   height: 26.31%;
@@ -8,6 +9,69 @@
   left: calc(50% - 120px);
   max-height: 100%;
   z-index: 0;
+}
+.group-icon {
+  height: 48.26%;
+  width: 124.3px;
+  top: 39.57%;
+  bottom: 12.17%;
+  left: calc(50% - 62px);
+}
+.ada-2-minit {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 500;
+}
+.benefit-two-time,
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.benefit-two-time {
+  z-index: 1;
+}
+.group-parent {
+  height: 23px;
+  padding: 0 10px 0 3px;
+  box-sizing: border-box;
+  position: relative;
+}
+.inilah-yang-berlaku {
+  margin: 0;
+}
+.lihat-fakta-menarik-container {
+  width: 156px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+}
+.benefit-one,
+.benefit-two {
+  display: flex;
+  justify-content: flex-start;
+}
+.benefit-one {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.benefit-two {
+  width: 179px;
+  height: 8.82%;
+  margin: 0 !important;
+  position: absolute;
+  top: 87.28%;
+  bottom: 3.9%;
+  left: calc(50% - 0px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+  z-index: 1;
 }
 .tukar-duit-syiling {
   margin: 0;
@@ -27,7 +91,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  z-index: 1;
+  z-index: 2;
+  font-size: var(--font-size-16xl);
 }
 .screen1-item {
   width: 450px;
@@ -38,10 +103,7 @@
   bottom: 48.16%;
   left: calc(50% - 225px);
   max-height: 100%;
-  z-index: 2;
-}
-.inilah-yang-berlaku {
-  margin: 0;
+  z-index: 3;
 }
 .inilah-yang-berlaku-container {
   margin: 0;
@@ -71,92 +133,42 @@
   font-weight: 500;
   display: inline-block;
 }
-.benefit-one {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.group-icon {
-  height: 48.26%;
-  width: 124.3px;
-  position: absolute;
-  margin: 0 !important;
-  top: 39.57%;
-  bottom: 12.17%;
-  left: calc(50% - 62px);
-  max-height: 100%;
-  z-index: 0;
-}
-.ada-2-minit {
-  position: relative;
-  letter-spacing: -0.01em;
-  line-height: 23px;
-  font-weight: 500;
-}
-.benefit-two-time,
-.group-parent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-.benefit-two-time {
-  z-index: 1;
-}
-.group-parent {
-  height: 23px;
-  padding: 0 10px 0 3px;
-  box-sizing: border-box;
-  position: relative;
-}
-.lihat-fakta-menarik-container {
-  width: 156px;
-  position: relative;
-  letter-spacing: -0.01em;
-  line-height: 21px;
-  font-weight: 500;
-  display: inline-block;
-}
-.benefit-two,
-.screen1-description {
+.screen1,
+.screen1-description,
+.screen1-title2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.benefit-two {
-  width: 179px;
-  height: 88px;
-  align-items: flex-start;
-  gap: var(--gap-11xs);
-}
 .screen1-description {
   align-self: stretch;
-  height: 278px;
+  height: 92px;
   align-items: flex-end;
-  gap: 98px;
   font-size: var(--font-size-mid);
 }
 .screen1,
 .screen1-title2 {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
 }
 .screen1-title2 {
-  width: 358px;
-  height: 438.8px;
-  justify-content: center;
+  width: 310px;
+  height: 25.56%;
+  margin: 0 !important;
+  position: absolute;
+  top: 52.01%;
+  bottom: 22.43%;
+  left: calc(50% - 179px);
   gap: 76px;
-  z-index: 3;
+  z-index: 4;
   font-size: 25px;
 }
 .screen1 {
   align-self: stretch;
+  height: 997.8px;
   overflow: hidden;
-  justify-content: flex-start;
+  flex-shrink: 0;
   padding: var(--padding-27xl) var(--padding-27xl) var(--padding-21xl);
+  box-sizing: border-box;
   position: relative;
   gap: 313px;
   background-image: url(./public/screen1@3x.png);
@@ -164,7 +176,7 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: var(--font-size-16xl);
+  font-size: var(--font-size-mid);
   color: var(--color-darkslategray);
   font-family: var(--font-inter);
 }
@@ -330,6 +342,17 @@
   z-index: 0;
   color: var(--color-forestgreen);
 }
+.screen3-child {
+  width: 343.5px;
+  height: 69.13%;
+  position: absolute;
+  margin: 0 !important;
+  top: 27.45%;
+  bottom: 3.42%;
+  left: calc(50% - 163px);
+  max-height: 100%;
+  z-index: 1;
+}
 .lumba-lumba-irrawaddy-yang {
   font-weight: 800;
 }
@@ -343,29 +366,17 @@
   transform: rotate(6deg);
   transform-origin: 0 0;
 }
-.group,
-.screen3-child {
-  position: absolute;
-  margin: 0 !important;
-}
 .group {
   width: 50.53%;
   height: 21.04%;
+  position: absolute;
+  margin: 0 !important;
   top: 47.39%;
   right: 25.51%;
   bottom: 31.57%;
   left: 23.96%;
-  z-index: 1;
-  font-size: var(--font-size-2xs);
-}
-.screen3-child {
-  width: 343.5px;
-  height: 69.13%;
-  top: 27.45%;
-  bottom: 3.42%;
-  left: calc(50% - 163px);
-  max-height: 100%;
   z-index: 2;
+  font-size: var(--font-size-2xs);
 }
 .co {
   font-family: var(--font-inter);
@@ -495,6 +506,17 @@
   gap: 10px;
   z-index: 0;
 }
+.screen4bottomhalf-child {
+  width: 301px;
+  height: 75.95%;
+  position: absolute;
+  margin: 0 !important;
+  top: 19.22%;
+  bottom: 4.82%;
+  left: calc(50% - 122px);
+  max-height: 100%;
+  z-index: 1;
+}
 .juta-pokok {
   position: absolute;
   top: 76.33%;
@@ -504,30 +526,18 @@
   transform: rotate(6deg);
   transform-origin: 0 0;
 }
-.group1,
-.screen4bottomhalf-child {
-  position: absolute;
-  margin: 0 !important;
-}
 .group1 {
   width: 50.89%;
   height: 26.81%;
+  position: absolute;
+  margin: 0 !important;
   top: 37.4%;
   right: 25.49%;
   bottom: 35.79%;
   left: 23.62%;
-  z-index: 1;
+  z-index: 2;
   font-size: 21px;
   color: var(--color-darkslategray);
-}
-.screen4bottomhalf-child {
-  width: 301px;
-  height: 75.95%;
-  top: 19.22%;
-  bottom: 4.82%;
-  left: calc(50% - 122px);
-  max-height: 100%;
-  z-index: 2;
 }
 .boleh-teka-berapa-container,
 .menunjukkan-bagaimana-perubaha-container {
@@ -584,14 +594,6 @@
   .screen4tophalf {
     padding-top: 30px;
     box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 358px) {
-  .screen1-description {
-    gap: 49px;
-  }
-  .screen1-title2 {
-    gap: 38px;
   }
 }
 @media screen and (max-width: 321px) {
