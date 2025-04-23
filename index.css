@@ -1,0 +1,611 @@
+.lines-icon1 {
+  width: 185.5px;
+  height: 26.31%;
+  position: absolute;
+  margin: 0 !important;
+  top: 60.63%;
+  bottom: 13.06%;
+  left: calc(50% - 120px);
+  max-height: 100%;
+  z-index: 0;
+}
+.tukar-duit-syiling {
+  margin: 0;
+  height: 160px;
+  width: 310px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.screen1-title1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.screen1-item {
+  width: 450px;
+  height: 29.19%;
+  margin: 0 !important;
+  position: absolute;
+  top: 22.65%;
+  bottom: 48.16%;
+  left: calc(50% - 225px);
+  max-height: 100%;
+  z-index: 2;
+}
+.inilah-yang-berlaku {
+  margin: 0;
+}
+.inilah-yang-berlaku-container {
+  margin: 0;
+  width: 310px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 29px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.inilah-yang-berlaku-apabila-an-wrapper {
+  align-self: stretch;
+  height: 87px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.setiap-10-atau-container {
+  width: 265px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+}
+.benefit-one {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-icon {
+  height: 48.26%;
+  width: 124.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 39.57%;
+  bottom: 12.17%;
+  left: calc(50% - 62px);
+  max-height: 100%;
+  z-index: 0;
+}
+.ada-2-minit {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 500;
+}
+.benefit-two-time,
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.benefit-two-time {
+  z-index: 1;
+}
+.group-parent {
+  height: 23px;
+  padding: 0 10px 0 3px;
+  box-sizing: border-box;
+  position: relative;
+}
+.lihat-fakta-menarik-container {
+  width: 156px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+}
+.benefit-two,
+.screen1-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.benefit-two {
+  width: 179px;
+  height: 88px;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.screen1-description {
+  align-self: stretch;
+  height: 278px;
+  align-items: flex-end;
+  gap: 98px;
+  font-size: var(--font-size-mid);
+}
+.screen1,
+.screen1-title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.screen1-title2 {
+  width: 358px;
+  height: 438.8px;
+  justify-content: center;
+  gap: 76px;
+  z-index: 3;
+  font-size: 25px;
+}
+.screen1 {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-27xl) var(--padding-21xl);
+  position: relative;
+  gap: 313px;
+  background-image: url(./public/screen1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+.lines-icon {
+  width: 347.3px;
+  height: 77.54%;
+  position: absolute;
+  margin: 0 !important;
+  top: 18.66%;
+  bottom: 3.8%;
+  left: calc(50% - 168px);
+  max-height: 100%;
+  z-index: 0;
+}
+.tahukah-anda {
+  width: 154px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
+.orangutan-berkongsi-97-container {
+  margin: 0;
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  letter-spacing: 0.01em;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+  display: inline-block;
+  min-width: 358px;
+}
+.screen2-title {
+  align-self: stretch;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  z-index: 1;
+  color: var(--color-forestgreen);
+}
+.group-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.hutan-hujan-ini {
+  margin: 0;
+  font-weight: 500;
+}
+.menyerap-dan-menyimpan {
+  margin: 0;
+  font-weight: 800;
+}
+.hutan-hujan-ini-container {
+  position: absolute;
+  width: 75.22%;
+  top: 65.03%;
+  left: 10.65%;
+  line-height: 14px;
+  display: inline-block;
+  transform: rotate(6deg);
+  transform-origin: 0 0;
+}
+.image {
+  width: 51.2%;
+  height: 24.27%;
+  position: absolute;
+  margin: 0 !important;
+  top: 42.78%;
+  right: 25.78%;
+  bottom: 32.95%;
+  left: 23.02%;
+  z-index: 2;
+  font-size: var(--font-size-2xs);
+}
+.membantu-memelihara {
+  font-weight: 500;
+}
+.hutan-hujan {
+  font-weight: 800;
+  font-family: var(--font-inter);
+}
+.dengan-mengekalkannya-kita-container,
+.mereka-ibarat-keluarga-container {
+  width: 307px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  display: inline-block;
+}
+.dengan-mengekalkannya-kita-container {
+  width: 290px;
+}
+.screen2,
+.screen2-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.screen2-description {
+  width: 358px;
+  height: 766.6px;
+  gap: 380px;
+  z-index: 3;
+}
+.screen2 {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-41xl) var(--padding-27xl);
+  position: relative;
+  gap: 51px;
+  background-image: url(./public/screen2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+.malaysia-telah-kehilangan-container,
+.tahukah-anda1 {
+  width: 160px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+}
+.malaysia-telah-kehilangan-container {
+  margin: 0;
+  width: 308px;
+  height: 240px;
+  font-size: var(--font-size-16xl);
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: inherit;
+  color: var(--color-darkslategray);
+}
+.screen3-title {
+  align-self: stretch;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+  z-index: 0;
+  color: var(--color-forestgreen);
+}
+.lumba-lumba-irrawaddy-yang {
+  font-weight: 800;
+}
+.bakau-di-belawai-container {
+  position: absolute;
+  width: 76.21%;
+  top: 69.92%;
+  left: 9.97%;
+  line-height: 14px;
+  display: inline-block;
+  transform: rotate(6deg);
+  transform-origin: 0 0;
+}
+.group,
+.screen3-child {
+  position: absolute;
+  margin: 0 !important;
+}
+.group {
+  width: 50.53%;
+  height: 21.04%;
+  top: 47.39%;
+  right: 25.51%;
+  bottom: 31.57%;
+  left: 23.96%;
+  z-index: 1;
+  font-size: var(--font-size-2xs);
+}
+.screen3-child {
+  width: 343.5px;
+  height: 69.13%;
+  top: 27.45%;
+  bottom: 3.42%;
+  left: calc(50% - 163px);
+  max-height: 100%;
+  z-index: 2;
+}
+.co {
+  font-family: var(--font-inter);
+}
+.dana-anda-menyokong-container {
+  width: 275px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  display: inline-block;
+}
+.dengan {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.dengan-memelihara-bakau-container {
+  width: 285px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+  display: inline-block;
+}
+.screen3,
+.screen3-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.screen3-description {
+  width: 358px;
+  height: 634px;
+  justify-content: center;
+  gap: 348px;
+  z-index: 3;
+}
+.screen3 {
+  align-self: stretch;
+  height: 1164.4px;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-27xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 48px;
+  background-image: url(./public/screen3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+.dan-itu-bukan-container {
+  margin: 0;
+  width: 288px;
+  height: 200px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.sanctuary-hidupan-liar {
+  font-weight: 800;
+  font-family: var(--font-grab-community-solid-en);
+}
+.green-programme-menyokong-container {
+  width: 315px;
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  display: inline-block;
+  min-width: 315px;
+}
+.screen4-description,
+.screen4tophalf {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.screen4-description {
+  height: 327px;
+  gap: 12px;
+}
+.screen4tophalf {
+  height: 395.1px;
+  padding: var(--padding-27xl) var(--padding-27xl) 0;
+  box-sizing: border-box;
+  background-image: url(./public/screen4tophalf@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-grab-community-solid-en);
+}
+.kuiz-pantas {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.sejak-2021-pengguna-container {
+  width: 332px;
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+}
+.screen5-title {
+  align-self: stretch;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  z-index: 0;
+}
+.juta-pokok {
+  position: absolute;
+  top: 76.33%;
+  left: 9.24%;
+  line-height: 14px;
+  font-weight: 800;
+  transform: rotate(6deg);
+  transform-origin: 0 0;
+}
+.group1,
+.screen4bottomhalf-child {
+  position: absolute;
+  margin: 0 !important;
+}
+.group1 {
+  width: 50.89%;
+  height: 26.81%;
+  top: 37.4%;
+  right: 25.49%;
+  bottom: 35.79%;
+  left: 23.62%;
+  z-index: 1;
+  font-size: 21px;
+  color: var(--color-darkslategray);
+}
+.screen4bottomhalf-child {
+  width: 301px;
+  height: 75.95%;
+  top: 19.22%;
+  bottom: 4.82%;
+  left: calc(50% - 122px);
+  max-height: 100%;
+  z-index: 2;
+}
+.boleh-teka-berapa-container,
+.menunjukkan-bagaimana-perubaha-container {
+  width: 288px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-weight: 800;
+  display: inline-block;
+}
+.menunjukkan-bagaimana-perubaha-container {
+  width: 321px;
+  font-weight: 500;
+}
+.screen5-description {
+  width: 358px;
+  height: 470px;
+  gap: 332px;
+  z-index: 3;
+  font-size: var(--font-size-mid);
+}
+.grab-my-bm,
+.screen4bottomhalf,
+.screen5-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.screen4bottomhalf {
+  align-self: stretch;
+  height: 854.1px;
+  padding: var(--padding-21xl) var(--padding-27xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 69px;
+  background-image: url(./public/screen4bottomhalf@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-grab-community-solid-en);
+}
+.grab-my-bm {
+  width: 450px;
+  max-width: 800px;
+  min-width: 360px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 373px) {
+  .screen4tophalf {
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 358px) {
+  .screen1-description {
+    gap: 49px;
+  }
+  .screen1-title2 {
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .screen5-description {
+    gap: 166px;
+  }
+}
+@media screen and (max-width: 307px) {
+  .screen2-description {
+    gap: 190px;
+  }
+}
+@media screen and (max-width: 285px) {
+  .screen3-description {
+    gap: 174px;
+  }
+}
